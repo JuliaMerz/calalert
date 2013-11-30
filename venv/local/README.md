@@ -1,1 +1,0 @@
-/home/sam/hackatberk/calalert/README.md
