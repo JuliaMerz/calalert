@@ -1,0 +1,352 @@
+/*===============
+**********
+
+Color Red
+#e85564
+hover state #cf4d5b
+rgb(232, 85, 100)
+
+***********
+==================*/
+
+::-moz-selection {
+    background: #e85564;
+}
+
+::selection {
+    background: #e85564;
+}
+
+
+a,
+#header .menu li:hover a,
+#header .menu li a.active, 
+#header .menu li > ul li a,
+.block-services-border .icon-container,
+.block-services-border h3,
+.portfolio-item figcaption a ,
+.cycle-slide-prev,
+.cycle-slide-next,
+.article .article-meta-comments,
+ .inner-label-left,
+.inner-label-right,
+.btn-custom-border,
+.dropcap,
+.change-color,
+.pricing-table.pricing-custom  header,
+.big-services .icon-container ,
+.small-services  .icon-container,
+.big-services  h3,
+.small-services  h4,
+.count-container h4,
+.portfolio-detail-list i,
+.widget h3,
+.widget h4,
+#footer h4,
+#footer .widget.widget-category li a,
+#footer .widget-list li a,
+#scroll-top,
+.four-o-four,
+.tab-content h3,
+/* used in onepage-style.css landing-style.css  coming-style.css Color */
+/* Same sections*/
+#home .section-title,
+#about .section-title,
+#services .section-title,
+#features .section-title,
+#portfolio .section-title,
+#pricing .section-title,
+#contact .section-title,
+#about header,
+#services header,
+#features header,
+#portfolio header,
+#pricing header,
+#contact header {
+	color:#e85564;
+}
+
+
+a:hover,
+.btn-custom-border:hover,
+.btn-custom-border:focus,
+.btn-custom-border:active,
+.btn-custom-border.active,
+.widget.widget-category li a:hover,
+.widget-list li a:hover,
+#footer .separator,
+#scroll-top:hover{
+	color:#cf4d5b;
+}
+
+
+.big-services h3:after,
+.block-services-border h3:after ,
+.portfolio-item:hover .portfolio-detail, .dropcap-2,
+.highlight,
+#header #header-top,
+.pricing-table.pricing-custom .price,
+.pricing-table.pricing-custom .pricing-content li:nth-child(2n+1),
+.inverse-row .block-services.block-services-custom:nth-child(2n),
+.block-services.block-services-custom,
+.article-timeline .timeline-left .timeline-article-date,
+.article-timeline .timeline-right .timeline-article-date  {
+	background:#e85564;
+}
+
+
+#header .menu li > ul li a.active,
+#header .menu li > ul li:hover > a,
+.pricing-table.pricing-custom,
+.team-member figcaption ,
+.block-services.block-services-custom:nth-child(2n),
+.inverse-row .block-services.block-services-custom:nth-child(2n+1),
+.panel-custom > .panel-heading:hover  {
+	background: #cf4d5b;
+}
+
+
+#header .menu li:hover a,
+#header .menu li a.active,
+.pricing-table.pricing-custom,
+.btn-custom-border,
+.services-list li:hover .icon-container,
+.portfolio-item figcaption,
+.cycle-slide-prev:active,
+.cycle-slide-next:active,
+#scroll-top,
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active    {
+	border-color:#e85564;
+}
+
+
+.block-services-border,
+#portfolio-filters li a,
+.cycle-slide-prev,
+.cycle-slide-next,
+.article .article-meta-box,
+.article-grid .article {
+	border:2px solid #e85564;
+}
+
+#header .menu li > ul,
+.btn-custom-border:hover,
+.btn-custom-border:focus,
+.btn-custom-border:active,
+.btn-custom-border.active,
+.article-timeline .article {
+	border:2px solid #cf4d5b;
+}
+
+
+hr.fancy-hr-left:before,
+hr.fancy-hr-middle:before,
+hr.fancy-hr-right:before {
+    border-color: transparent transparent transparent #e85564;
+}
+
+#header .menu li > ul:before {
+	border-left-color:#cf4d5b;
+}
+
+#header .menu li > ul li {
+	border-bottom:1px dotted #cf4d5b;
+}
+
+#header .menu li > ul li > ul:before {
+	border-right-color:#cf4d5b;
+}
+
+.portfolio-detail {
+	border-top:3px solid #e85564;
+}
+.portfolio-detail:before {
+	border-color: transparent transparent transparent #e85564;
+}
+
+.article .article-meta-box:before {
+    border-color: transparent #e85564 transparent transparent;
+}
+
+.form-control:focus {
+	border:1px solid #cf4d5b;
+}
+
+hr {
+    border-top: 2px solid #e85564;
+}
+
+.pricing-table.pricing-custom hr {
+    border-top-color:#e85564;
+}
+
+.announcement {
+    border:2px solid #e85564;
+    border-left-width:6px;
+    border-right-width:4px;
+}
+
+.announcement:before {
+	border-color: transparent #e85564 transparent transparent;
+
+}
+
+/* Blog */
+.cycle-slide-prev:hover,
+.cycle-slide-next:hover {
+    border-color:#cf4d5b;
+}
+
+.article-timeline .timeline-left .article:before {
+    border-color: transparent transparent transparent #cf4d5b;
+}
+
+.article-timeline .timeline-right .article:before {
+    border-color: transparent transparent #cf4d5b transparent;
+}
+
+.form-control,
+.post-author,
+.comment .comment-content  {
+    border:1px solid #e85564;
+}
+
+.comment .comment-content:before {
+    border-color: transparent transparent #e85564 transparent;
+}
+
+#footer hr.fancy-hr-left:after,
+#footer hr.fancy-hr-middle:after,
+#footer hr.fancy-hr-right:after {
+    border-color: transparent transparent transparent #38475a;
+}
+#footer .footer-latest-posts li > span {
+    border-color: #cf4d5b;
+}
+
+#footer .flickr-widget li a:before {
+    background: rgba(232, 85, 100, 0.8);
+}
+
+#scroll-top:hover {
+    border-color:#cf4d5b;
+}
+
+#scroll-top:hover:after  {
+	border-color: transparent #cf4d5b transparent transparent;
+}
+
+/* Bootstrap Tab */
+.nav-tabs > li > a {
+    background-color: #e85564;
+    border-color: #e85564 #cf4d5b #aab2bd;
+}
+
+.nav-tabs > li > a:hover {
+    border-color: #cf4d5b #cf4d5b #aab2bd;
+    background-color: #cf4d5b;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    border: 1px solid #cf4d5b;
+	border-bottom-color: transparent !important;
+    border-top-width:3px;
+}
+
+/* Bootstrap Accordion */
+.panel-group .panel {
+    border-color:#cf4d5b;
+}
+
+.panel-custom > .panel-heading {
+	background-color: #e85564;
+	border-color: #cf4d5b;
+}
+
+
+.panel-custom > .panel-heading + .panel-collapse .panel-body {
+	border-top-color: #cf4d5b;
+}
+
+/* Bootstrap Progress Bars  */
+.progress-bar-custom {
+	background-color: #e85564;
+}
+
+/* Pagination */
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+	background-color: #cf4d5b;
+	border-color: #cf4d5b;
+}
+
+/* Bootstrap labels */
+.label-custom {
+	background-color: #e85564;
+}
+
+.label-danger[href]:hover,
+.label-danger[href]:focus {
+	background-color: #cf4d5b;
+}
+
+/* Bootstrap buttons */
+.btn-custom {
+	background-color: #e85564;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active {
+	background-color: #cf4d5b;
+}
+
+/* Blockquote */
+blockquote {
+	border-left: 4px solid #e85564;
+}
+
+blockquote.pull-right {
+	border-right: 5px solid #e85564;
+}
+
+/* Bootstrap Tooltip */
+
+.tooltip-inner {
+	background-color: #cf4d5b;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-color: transparent #cf4d5b transparent transparent;
+}
+
+.tooltip.right .tooltip-arrow {
+    border-color: transparent transparent #cf4d5b transparent;
+}
+
+.tooltip.left .tooltip-arrow {
+    border-color: transparent transparent transparent #cf4d5b;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-color: transparent transparent transparent #cf4d5b;
+}
+
+/* used in landing-style.css and comingsoon-style.css */
+.overlay-bg {
+    background: rgba(232, 85, 100, 0.7);
+}
+#header .menu li.active a{
+	color:#e85564;
+	border-color:#e85564;
+}

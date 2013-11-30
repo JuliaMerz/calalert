@@ -1,0 +1,158 @@
+/* =============================================
+--------------Kira OnePage Css File -------- */
+
+.inside-padding {
+	padding:80px 0;
+}
+
+
+#about .section-title,
+#services .section-title,
+#portfolio .section-title,
+#contact .section-title {
+    text-align:center;
+    text-transform:uppercase;
+    margin-bottom:30px;
+}
+
+
+#home {
+    background: url(../images/onepagebg.jpg) no-repeat center center;
+    -webkit-background-size: %49 100%;
+    background-size: %49 100%;
+    background-attachment: fixed;
+    height:600px;
+    padding-top:227px;
+    color:#fff;
+}
+
+
+#text-ticker {
+    color:#fff;
+    text-align:center;
+    margin-bottom:80px;
+}
+
+#text-ticker ul  {
+    width:100%;    
+}
+
+#text-ticker ul li {
+    font-size:36px;
+    line-height:1.3;
+    text-align:center;
+}
+/* Rewrite for bigger text */
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    line-height: 1.2;
+}
+
+h4, h5, h6 {
+    font-weight:bold;
+}
+
+h1 {
+    font-size:80px;
+    
+}
+
+h2 {
+    font-size:40px;
+    list-style: 1.3;
+}
+h3 {
+    font-size:24px;
+    list-style: 1.3;
+}
+
+
+
+#home .social-media li a,
+#about .social-media li a,
+#services .social-media li a,
+#portfolio .social-media li a,
+#contact .social-media li a   {
+    padding:15px 0;
+}
+
+#home .social-media li a:hover,
+#about .social-media li a:hover,
+#services .social-media li a:hover,
+#portfolio .social-media li a:hover,
+#contact .social-media li a:hover   {
+    color:#f5f7fa;
+}
+/* menu active */
+#header .menu li a{
+    -webkit-transition-duration:0.05s;
+    -moz-transition-duration:0.05s;
+    -o-transition-duration:0.05s;
+    -ms-transition-duration:0.05s;
+    transition-duration:0.05s;
+}
+
+#services {
+    background: #e6e9ed;
+}
+
+#services hr.fancy-hr-left:after,
+#services hr.fancy-hr-middle:after,
+#services hr.fancy-hr-right:after {
+    border-color: transparent transparent transparent #e6e9ed;
+}
+
+#services .services-list li .icon-container {
+    background: #e6e9ed;
+}
+
+.announcement h3 {
+    margin:0 0 10px;
+}
+
+#services .announcement:after {
+	border-color: transparent #e6e9ed transparent transparent;
+}
+
+#portfolio {
+    background:#656d78;
+}
+
+#portfolio #portfolio-filters.nav-tabs a.active, 
+#portfolio #portfolio-filters.nav-tabs a.active:focus, 
+#portfolio #portfolio-filters.nav-tabs a.active:hover {
+    background:#656d78;
+}
+
+#portfolio hr.fancy-hr-left:after,
+#portfolio hr.fancy-hr-middle:after,
+#portfolio hr.fancy-hr-right:after {
+    border-color: transparent transparent transparent #656d78;
+}
+
+/* ================================================
+---------- Responsive   ---------- */
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    #home {
+        height:480px;
+        padding-top:217px;
+    }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    #home {
+        height:320px;
+        padding-top:137px;
+    }
+    h1 {
+        font-size:40px;
+    }
+    h2 {
+        font-size:25px;
+    }
+    #text-ticker ul li {
+    font-size:18px;
+    }
+}
