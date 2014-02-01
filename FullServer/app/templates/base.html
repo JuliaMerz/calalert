@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Angyl</title>
+  </head>
+  <body>
+    <div>Angyl <a href="/index">Home</a></div>
+    <hr>
+    <center>
+        <form method="POST">
+        {{form.hidden_tag()}}
+        {% for thing in form %}
+            {{ thing }}<br />
+        {% endfor %}
+        <input type="submit" value="submit" name="submit">
+        </form>
+    </center>
+  </body>
+</html>
